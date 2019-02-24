@@ -1,0 +1,26 @@
+service: keep-api
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+
+provider:
+  name: aws
+  runtime: python3.6
+
+functions:
+  create:
+    handler: handler.create
+    events:
+      - http:
+          path: /notes
+          method: post
+  get:
+    handler: handler.get
+    events:
+      - http:
+          path: /notes
+          method: get

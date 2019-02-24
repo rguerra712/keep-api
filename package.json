@@ -1,0 +1,22 @@
+{
+  "name": "keep-api",
+  "version": "1.0.0",
+  "description": "An unofficial serverless hosted solution for the keep api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "R. Stephen Guerra",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rguerra712/keep-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rguerra712/keep-api/issues"
+  },
+  "homepage": "https://github.com/rguerra712/keep-api#readme",
+  "devDependencies": {
+    "serverless-python-requirements": "^4.3.0"
+  }
+}
